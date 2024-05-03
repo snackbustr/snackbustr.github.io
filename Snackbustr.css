@@ -392,7 +392,30 @@ footer{
     }
   
 }
-
+@media (max-width: 768px){
+    header{
+        padding: 10px 16px;
+    }
+    .search-container #search-bar{
+        width: 150px;
+        align-items: center;
+    }
+    .home{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .about{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .about-img{
+        order: 2;
+    }
+    section{
+        padding: 100px 7%;
+    }
+    
+}
 @media (max-width: 720px){
     header{
         padding: 10px 16px;
