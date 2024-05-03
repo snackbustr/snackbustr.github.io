@@ -150,7 +150,7 @@ hr {
 }
 
 .menu-container{
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     grid-gap: 1rem;
     align-items: center;
