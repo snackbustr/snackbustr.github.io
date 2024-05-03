@@ -23,6 +23,7 @@ body{
     color: white;
     background: #2899ce;
     padding: 50px;
+    margin: 0;
 }
 header{
     position: fixed;
@@ -147,12 +148,7 @@ hr {
 .heading h2{
     font-size: var(--h2-font);
 }
-.menu-cont{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    grid-gap: 1rem;
-    align-items: center;
-}
+
 .menu-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -161,7 +157,7 @@ hr {
 }
 .box{
     position: relative;
-    margin-top: 2rem;
+    margin-top: 1rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -202,11 +198,6 @@ hr {
     font-size: 20px;
     padding: 7px 10px;
     border-radius: 0 0.5rem 0 0.5rem;
-}
-.flavorss{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 10px; 
 }
 .flavors {
     list-style: none;
@@ -446,3 +437,8 @@ footer{
         width: 100%;
     }
 }
+@media only screen and (max-width: 480px) {
+    .col{
+        width: 100%;
+    }
+  }
